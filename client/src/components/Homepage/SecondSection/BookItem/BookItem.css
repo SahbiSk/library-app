@@ -1,0 +1,21 @@
+.bookitem {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  cursor: pointer;
+  padding-bottom: 2vh;
+  border: 1px var(--color-blue-light) solid;
+}
+.bookitem img {
+  width: 150px;
+  height: 150px;
+}
+.bookitem p {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}

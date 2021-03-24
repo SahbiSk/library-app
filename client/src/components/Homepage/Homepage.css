@@ -1,0 +1,8 @@
+.homepage {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+  width: 80%;
+  margin-bottom: 10vh;
+}

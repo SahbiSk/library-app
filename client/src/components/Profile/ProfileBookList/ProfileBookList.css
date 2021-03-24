@@ -1,0 +1,22 @@
+.upload-book {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.book-list__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-list__add-button {
+  background: var(--color-pink-dark) !important;
+  color: var(--color-white) !important;
+}
+.book-list__upload-button {
+  background: var(--color-green-light) !important;
+  color: var(--color-white) !important;
+  margin: 5px !important;
+}

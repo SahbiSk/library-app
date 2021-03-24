@@ -1,0 +1,31 @@
+.message-item {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  min-height: 30%;
+  margin: 30px 15% auto 45px;
+  border-radius: 10px;
+  background: var(--color-grey-light);
+  text-align: center;
+}
+.message-item__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1.5px solid var(--color-grey-dark);
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.message-item__header--delete-icon {
+  color: var(--color-pink-dark);
+  transform: scale(2);
+  cursor: pointer;
+}
+.message-item__content {
+  width: 90%;
+  overflow-y: scroll;
+  margin: 15px auto;
+}

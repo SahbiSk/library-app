@@ -1,0 +1,72 @@
+.booklist-item {
+  display: flex;
+  margin-right: 5vw;
+  align-items: center;
+  width: 95%;
+}
+
+.booklist-item:hover {
+  background: var(--color-grey-light);
+}
+
+.booklist-item img {
+  width: 100px;
+  height: 150px;
+  margin-left: 3vw;
+}
+.booklist-item p {
+  width: 30vw;
+}
+.booklist-item h2 {
+  color: var(--color-pink-dark);
+}
+
+.booklist-item__details {
+  margin-left: 4vw;
+  width: 30vw;
+}
+.booklist-item .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+}
+.booklist-item .buttons > .button-add {
+  background: var(--color-green-light);
+  color: white;
+}
+
+.booklist-item .buttons > .button-remove {
+  background: var(--color-pink-dark);
+  color: white;
+  margin: 4px 0;
+}
+.books-left {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 8vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.books-left p {
+  width: 7vw;
+  padding-left: 20px;
+}
+.delete-book-icon {
+  cursor: pointer;
+  transform: scale(1.6);
+  color: red;
+  margin: auto;
+}
+.booklist-item_shopping {
+  color: var(--color-pink-dark);
+  transform: scale(2);
+  margin-right: 3vw;
+  cursor: pointer;
+}
+.remove-book-from-cargo {
+  color: var(--color-pink-dark);
+  transform: scale(2);
+  cursor: pointer;
+}

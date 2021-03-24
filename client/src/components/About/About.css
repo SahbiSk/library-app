@@ -1,0 +1,31 @@
+.about-container {
+  transform: translateY(-30%);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 3vh;
+  border-radius: 10px;
+}
+.about-container h2 {
+  color: var(--color-blue-light);
+  font-weight: 600;
+  font-size: 25px;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.about-container__second {
+  text-align: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5vh;
+}

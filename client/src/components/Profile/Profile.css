@@ -1,0 +1,144 @@
+.profile {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  height: 101vh;
+  width: 85%;
+  display: flex;
+  background: white;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+.profile-nav {
+  width: 5rem;
+  background: var(--color-blue-dark);
+  height: 100%;
+  display: flex;
+  transition: 0.3s ease;
+}
+.profile-nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 90%;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.profile-nav__list--main-list {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profile-nav__list--item a {
+  display: flex;
+  align-items: center;
+  color: var(--color-pink-dark);
+  filter: grayscale(100%) opacity(0.7);
+}
+
+.profile-nav__list--item {
+  width: 100%;
+  transition: 0.2s;
+  padding: 10px;
+}
+
+.profile-nav__list--item .icon {
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.profile-nav__list--item .link-title {
+  display: none;
+  transition: 0.2s;
+  font-weight: 600;
+  width: 30px;
+}
+
+.profile-nav:hover {
+  width: 15rem;
+}
+.profile-nav:hover .link-title {
+  display: block;
+}
+
+.profile-nav__list--item:hover a {
+  filter: grayscale(0) opacity(1);
+}
+/*profile section*/
+.profile-section {
+  padding-left: 40px;
+  height: 50vh;
+  padding-top: 8vh;
+  justify-content: space-between;
+}
+.profile-pic {
+  width: 50%;
+  margin-left: 15%;
+  border-radius: 50%;
+  margin-bottom: 10vh;
+}
+
+.holder {
+  overflow-y: scroll;
+  padding: 2vh;
+}
+
+.info-section {
+  background: var(--color-grey-light);
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vh;
+  margin-right: 5vh;
+  height: 50vh;
+  transform: translateY(-10%);
+}
+.info-section strong {
+  text-transform: uppercase;
+}
+
+.info-section h3 {
+  color: var(--color-blue-light);
+  text-transform: uppercase;
+}
+
+.info-section > div {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+.info-section .field {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.edit {
+  background: var(--color-green-light) !important;
+  color: white !important;
+}
+
+.save {
+  margin-top: 16vh !important;
+  margin-right: 4vh !important;
+  background: var(--color-green-light) !important;
+  color: white !important;
+}
+
+@media (min-width: 800px) {
+  .profile-section {
+    display: flex;
+  }
+  .info-section {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+  }
+  .profile-pic {
+    width: 70%;
+  }
+}

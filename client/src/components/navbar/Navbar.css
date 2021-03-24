@@ -1,0 +1,69 @@
+.navbar-container {
+  background-image: url("../../img/wallpaper.png");
+  filter: brightness(70%) ;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  transition: all 0.2s;
+  height: 10vh;
+}
+.navbar-title {
+  width: 15%;
+  padding-left: 5%;
+  color: white;
+  filter: brightness(90%);
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+.navbar-auth {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-around;
+}
+.navbar-list__item a {
+  text-decoration: none;
+  color: white;
+  filter: brightness(90%);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar .button {
+  background: var(--color-blue-light) !important;
+  color: white !important;
+  width: 100px !important;
+  border-radius: 30px !important;
+}
+.navbar-auth a {
+  text-decoration: none;
+}
+/*conditional classes*/
+.visible {
+  background: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.color_change {
+  color: var(--color-blue-light) !important;
+}
+
+@media (min-width: 1000px) {
+  .navbar-container {
+    height: 75vh;
+  }
+}

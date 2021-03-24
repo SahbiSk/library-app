@@ -1,0 +1,12 @@
+.booklist-container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 80%;
+  background: white;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-bottom: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
